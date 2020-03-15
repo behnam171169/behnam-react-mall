@@ -12,6 +12,7 @@ function App() {
    
     <div>
       <Route path="/" exact component={HomePage} />
+      <p>ojjojojojo</p>
     </div>
 
     
