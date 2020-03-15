@@ -1,0 +1,44 @@
+.Modal{
+    
+    position: fixed;
+    z-index: 500;
+    background-color: #2980b9;
+    /* width: 40%; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 15px;
+    left:15%;
+    top:30%;
+    box-sizing: border-box;
+    transition:all 0.3s ease-out;
+   display: block;
+   padding-bottom: 25px;
+}
+.apassword{
+    color: #ffffff;
+    text-decoration:underline;
+    margin-right: 90px;
+}
+.Modal a{
+    color:#ffffff;
+}
+.Modal input{
+    width: 90%;
+    padding: 15px;
+    margin-bottom:12px;
+
+    border-radius: 5px;
+    
+}
+@media(min-width:589px){
+    .Modal{
+        width: 400px;
+        left:calc(50%-250px);
+    }
+}
+@media(max-width:599px){
+    .Modal{
+      display: none;
+    }
+}

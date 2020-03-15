@@ -1,0 +1,52 @@
+.Toolbar{
+    height: 50px;
+    width: 100%;
+    background-color: #2980b9;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index:90 ;
+    direction: rtl;
+}
+/* .Toolbar nav{
+    height: 100%;
+}
+.helper{
+  height: 100%;  
+}
+
+@media(max-width:499px){
+.showNav{
+    display: none;
+}
+} */
+.sizecellphone{
+    display: flex;
+    align-items: center;
+    /* justify-content:space-between; */
+}
+.sizemin{
+    display: flex;
+    align-items: center;
+}
+@media(max-width:600px){
+    .showNav{
+        display: none;
+    }
+}
+@media( min-width:600px){
+    .sizemin{
+        display: none;
+    }
+}
+@media( max-width:600px){
+    .sizecellphone{
+        display: none;
+    }
+}
